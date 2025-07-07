@@ -1,8 +1,8 @@
 # Requires: pip install pytest playwright
 import pytest
 from playwright.sync_api import sync_playwright
-from ..actions.click import ClickAction
-from ..actions.type import TypeAction
+from web_automation.actions.click import ClickAction
+from web_automation.actions.type import TypeAction
 
 def test_example():
     with sync_playwright() as p:
